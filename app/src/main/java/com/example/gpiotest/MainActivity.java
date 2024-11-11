@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         invokeGPIO.setOnClickListener(new View.OnClickListener() {
             private void run() {
 
+                /*Control gpio through cmd*/
 //                String gpio_number = "138"; /* this gpio is an example gpio pin */
 //                String level = "0"; /* 0 is low level, 1 is high level */
 //                String exportPath = null;
